@@ -1,1 +1,6 @@
 wield('me.engine')
+engine = let NewEngine()
+public link cam do
+  engine do
+    Property(camera) do
+      Open = True()
